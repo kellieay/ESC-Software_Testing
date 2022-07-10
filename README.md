@@ -13,7 +13,7 @@ as exceptions. Finally, the software program generates another csv file listing 
 
 ### Deadlines
 
-* (**Week 8**)[#Week-8-Submission] [Document and Code]: Use case diagram should be complete. All Java (or
+* [**Week 8**](#Week-8-Submission) [Document and Code]: Use case diagram should be complete. All Java (or
 similar) files should be complete in terms of implementing the functionality and (in the
 bare minimum) the sample test files should pass. **Deadline 10th July, 11.59pm**.
 * **Week 9** [Document]: A report on your boundary value analysis and equivalence class
