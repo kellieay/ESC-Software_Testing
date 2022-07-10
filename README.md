@@ -13,7 +13,7 @@ as exceptions. Finally, the software program generates another csv file listing 
 
 ### Deadlines
 
-* **Week 8** [Document and Code]: Use case diagram should be complete. All Java (or
+* (**Week 8**)[#Week-8-Submission] [Document and Code]: Use case diagram should be complete. All Java (or
 similar) files should be complete in terms of implementing the functionality and (in the
 bare minimum) the sample test files should pass. **Deadline 10th July, 11.59pm**.
 * **Week 9** [Document]: A report on your boundary value analysis and equivalence class
@@ -29,5 +29,11 @@ should be complete. A report to briefly explain the bugs found in other’s impl
 should be complete. Each new bug found in another implementation will have a bounty
 (in terms of bonus marks: 5 marks / unique bug). **Deadline 14th Aug, 11.59pm**.
 
-# Implementation
+## Implementation
+
+## Week 8 Submission
+Implementation of the reading of the sample csv files and comparing them are in the `src file`, named as **`Compare.java`**.
+Results of the comparison between `sample_file_1.csv` and `sample_file_2.csv` is stored in **`test.csv`**.
+Results of the comparison between `sample_file_1.csv` and `sample_file_3.csv` is stored in **`test2.csv`**.
+
 
