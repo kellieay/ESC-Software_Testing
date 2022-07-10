@@ -2,7 +2,8 @@
 
 ## Objectives
 
-### Problem Statement: Data Reconciliation
+### Problem Statement
+* Data Reconciliation
 
 ### Description
 
