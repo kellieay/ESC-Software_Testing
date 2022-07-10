@@ -32,8 +32,11 @@ should be complete. Each new bug found in another implementation will have a bou
 ## Implementation
 
 ### Week 8 Submission
-Implementation of the reading of the sample csv files and comparing them are in the `src file`, named as **`Compare.java`**.
+* Implementation of the reading of the sample csv files and comparing them are in the `src file`, named as **`Compare.java`**.
 Results of the comparison between `sample_file_1.csv` and `sample_file_2.csv` is stored in **`test.csv`**.
 Results of the comparison between `sample_file_1.csv` and `sample_file_3.csv` is stored in **`test2.csv`**.
+
+* Use case diagram:
+![escw8](https://user-images.githubusercontent.com/98271835/178138229-08e7f983-a688-4c08-85d0-afaa1f6bcc83.jpg)
 
 
