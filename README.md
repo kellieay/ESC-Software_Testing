@@ -1,4 +1,4 @@
-# ESC-Software_Testing
+# ESC Software Testing Campaign
 
 ## Objectives
 
@@ -28,3 +28,6 @@ others are also distributed this week for independent testing by group members.
 should be complete. A report to briefly explain the bugs found in other’s implementation
 should be complete. Each new bug found in another implementation will have a bounty
 (in terms of bonus marks: 5 marks / unique bug). **Deadline 14th Aug, 11.59pm**.
+
+# Implementation
+
