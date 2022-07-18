@@ -41,6 +41,6 @@ Results of the comparison between `sample_file_1.csv` and `sample_file_3.csv` is
 ![escw8](https://user-images.githubusercontent.com/98271835/178138229-08e7f983-a688-4c08-85d0-afaa1f6bcc83.jpg)
 
 ### Week 9 Submission
-* [Report](Week9-Report/Equivalence-Class-Partitioning-and-Boundary-Value-Analysis-Report.pdf) on boundary value analysis and equivalence class
+* [Report](Week9-Report/Equivalence_Class_Partitioning_and_Boundary_Value_Analysis_Report.pdf) on boundary value analysis and equivalence class
 
 
