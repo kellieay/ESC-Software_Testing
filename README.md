@@ -45,9 +45,9 @@ Results of the comparison between `sample_file_1.csv` and `sample_file_3.csv` is
 
 ### Week 10 Submission
 * Unit Testing and System Level Testing were done in JUnit. They can be found under the `src file`, named as **`CompareTest.java`**.
-* System Testing: 
-  ** Regarding the test on parsing through an empty CSV file, and empty csv file, `emptycsv.csv` was created to be used.
-  ** Regarding the test on storing an empty list which indicates no difference found, onto another CSV file, the result can be found under        `emptyDifference_test.csv`.
-  ** Regarding the test on storing a list which contains both the differences found and some blank entries within the list, onto another CSV file, the result can be found under `someBlankDifference_test.csv`.
-  ** Regarding the test on storing a list which is filled with differences found, onto another CSV file, the result can be found under `filledDifference_test.csv`.
+-  System Testing: 
+  -  Regarding the test on parsing through an empty CSV file, and empty csv file, `emptycsv.csv` was created to be used.
+  -  Regarding the test on storing an empty list which indicates no difference found, onto another CSV file, the result can be found under        `emptyDifference_test.csv`.
+  -  Regarding the test on storing a list which contains both the differences found and some blank entries within the list, onto another CSV file, the result can be found under `someBlankDifference_test.csv`.
+  -  Regarding the test on storing a list which is filled with differences found, onto another CSV file, the result can be found under `filledDifference_test.csv`.
 
