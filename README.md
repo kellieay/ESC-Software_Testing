@@ -19,7 +19,7 @@ similar) files should be complete in terms of implementing the functionality and
 bare minimum) the sample test files should pass. **Deadline 11th July, 11.59pm**.
 * [**Week 9**](#Week-9-Submission) [Document]: A report on your boundary value analysis and equivalence class
 partitioning should be complete. **Deadline 18th July, 11.59pm**.
-* [**Week 10**] (#Week-10-Submission)[Code]: All (Junit) test files conducting unit and system level testing should be
+* [**Week 10**](#Week-10-Submission) [Code]: All (Junit) test files conducting unit and system level testing should be
 complete. **Deadline 25th July, 11.59pm**.
 * **Week 12** [Code]: A refactored/bug fixed version of the code. The fuzzer code is
 complete and properly documented for running by a third-party. The implementations of
