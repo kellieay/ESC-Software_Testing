@@ -1,5 +1,8 @@
 # ESC Software Testing Campaign
 
+## Name: Aw Yong Jia Min Kellie
+## Student ID: 1005466
+
 ## Objectives
 
 ### Problem Statement
