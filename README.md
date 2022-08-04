@@ -1,5 +1,8 @@
 # ESC Software Testing Campaign
 
+* Name: Aw Yong Jia Min Kellie
+* Student ID: 1005466
+
 ## Objectives
 
 ### Problem Statement
@@ -19,7 +22,7 @@ similar) files should be complete in terms of implementing the functionality and
 bare minimum) the sample test files should pass. **Deadline 11th July, 11.59pm**.
 * [**Week 9**](#Week-9-Submission) [Document]: A report on your boundary value analysis and equivalence class
 partitioning should be complete. **Deadline 18th July, 11.59pm**.
-* **Week 10** [Code]: All (Junit) test files conducting unit and system level testing should be
+* [**Week 10**](#Week-10-Submission) [Code]: All (Junit) test files conducting unit and system level testing should be
 complete. **Deadline 25th July, 11.59pm**.
 * **Week 12** [Code]: A refactored/bug fixed version of the code. The fuzzer code is
 complete and properly documented for running by a third-party. The implementations of
@@ -43,4 +46,11 @@ Results of the comparison between `sample_file_1.csv` and `sample_file_3.csv` is
 ### Week 9 Submission
 * Report on boundary value analysis and equivalence class can be found in the folder, `Week9-Report`
 
-
+### Week 10 Submission
+* Unit Testing and System Level Testing were done in JUnit. They can be found under the `src file`, named as **`CompareTest.java`**.
+- System Testing:
+  - Regarding the test on parsing through an empty CSV file, and empty csv file, `emptycsv.csv` was created to be used.
+  - Regarding the test on storing an empty list which indicates no difference found, onto another CSV file, the result can be found under        `emptyDifference_test.csv`.
+  - Regarding the test on storing a list which contains both the differences found and some blank entries within the list, onto another CSV file, the result can be found under `someBlankDifference_test.csv`.
+  - Regarding the test on storing a list which contains both the differences found and some blank entries within the list, onto another CSV file, the result can be found under `someBlankDifference_test.csv`.
+  - Regarding the test on storing a list which is filled with differences found, onto another CSV file, the result can be found under `filledDifference_test.csv`.
