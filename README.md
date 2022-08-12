@@ -54,3 +54,6 @@ Depending on the type of input you gave, or the files used in the program, diffe
 1. Giving an empty input: Both files will just compare for all headers and produce a new CSV file with differences listed if there are differences in both CSV files or produce a new CSV file that is empty if both CSV files used do not contain any differences.
 2. Giving an input that does not belong in the list of available headers: An error message saying that the user has entered an invalid input will be printed and the session will be terminated.
 3. Comparing CSV files with different number of columns/different order of headers: An error message reminding the user to check that both files have the same number of columns and are in the same order will be printed, and the session will be terminated.
+
+### Week 9 Submission
+* Report on the boundary value analysis and equivalence class can be found in `Week9-Report`.
