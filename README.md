@@ -36,21 +36,14 @@ should be complete. Each new bug found in another implementation will have a bou
 ## Implementation
 
 ### Week 8 Submission
-* Implementation of the reading of the sample csv files and comparing them are in the `src file`, named as **`Compare.java`**.
-Results of the comparison between `sample_file_1.csv` and `sample_file_2.csv` is stored in **`test.csv`**.
-Results of the comparison between `sample_file_1.csv` and `sample_file_3.csv` is stored in **`test2.csv`**.
-
-* Use case diagram:
-![escw8](https://user-images.githubusercontent.com/98271835/178138229-08e7f983-a688-4c08-85d0-afaa1f6bcc83.jpg)
-
-### Week 9 Submission
-* Report on boundary value analysis and equivalence class can be found in the folder, `Week9-Report`
-
-### Week 10 Submission
-* Unit Testing and System Level Testing were done in JUnit. They can be found under the `src file`, named as **`CompareTest.java`**.
-- System Testing:
-  - Regarding the test on parsing through an empty CSV file, and empty csv file, `emptycsv.csv` was created to be used.
-  - Regarding the test on storing an empty list which indicates no difference found, onto another CSV file, the result can be found under        `emptyDifference_test.csv`.
-  - Regarding the test on storing a list which contains both the differences found and some blank entries within the list, onto another CSV file, the result can be found under `someBlankDifference_test.csv`.
-  - Regarding the test on storing a list which contains both the differences found and some blank entries within the list, onto another CSV file, the result can be found under `someBlankDifference_test.csv`.
-  - Regarding the test on storing a list which is filled with differences found, onto another CSV file, the result can be found under `filledDifference_test.csv`.
+* Implementation of the reading of the sample csv files and comparing them can be found in: `ESC-SoftwareMiniTest/src/compareCSV`, named as **`Compare.java`**.
+## Getting Started
+Firstly, before running the program (in Eclipse), change the path of the sample files used to what corresponds to your own directory. 
+You can change them in line 163 for the `compareCols` method, line 165 for the `getHeaders` method and, lines 175 and 176 for the `getContentCsv` method.
+## Running the code
+After making the necessary changes in the step above, you can proceed to run the code directly. At this point, you will be prompted to give an input based on the headers of the sample csv files. The headers will also be printed for you to help you with what to input.  Notice that you only give one input at a time which means that if you want to give two headers, you will have to type the first header, press 'Enter', type the second header and press 'Enter'. To stop giving inputs, you can simply just press 'Enter' another time.
+## Expected output
+Depending on the type of input you gave, or the files used in the program, different outputs are expected.
+1. Giving an empty input: Both files will just compare for all headers and produce a new CSV file with differences listed if there are differences in both CSV files or produce a new CSV file that is empty if both CSV files used do not contain any differences.
+2. Giving an input that does not belong in the list of available headers: An error message saying that the user has entered an invalid input will be printed and the session will be terminated.
+3. Comparing CSV files with different number of columns/different order of headers: An error message reminding the user to check that both files have the same number of columns and are in the same order will be printed, and the session will be terminated.
