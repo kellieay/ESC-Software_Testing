@@ -40,10 +40,12 @@ should be complete. Each new bug found in another implementation will have a bou
 #### Getting Started
 Firstly, before running the program (in Eclipse), change the path of the sample files used to what corresponds to your own directory. 
 You can change them in line 163 for the `compareCols` method, line 165 for the `getHeaders` method and, lines 175 and 176 for the `getContentCsv` method.
+
 ![Screenshot 2022-08-13 at 3 44 28 AM](https://user-images.githubusercontent.com/98271835/184431873-2fa393fb-ab09-4eb3-9aaf-f91409652542.png)
 
 #### Running the code
 After making the necessary changes in the step above, you can proceed to run the code directly. At this point, you will be prompted to give an input based on the headers of the sample csv files. The headers will also be printed for you to help you with what to input.  Notice that you only give one input at a time which means that if you want to give two headers, you will have to type the first header, press 'Enter', type the second header and press 'Enter'. To stop giving inputs, you can simply just press 'Enter' another time.
+
 ![Screenshot 2022-08-13 at 3 45 19 AM](https://user-images.githubusercontent.com/98271835/184431984-5195c1de-0815-4d49-bee1-9015a130db7b.png)
 
 #### Expected output
