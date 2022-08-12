@@ -37,12 +37,16 @@ should be complete. Each new bug found in another implementation will have a bou
 
 ### Week 8 Submission
 * Implementation of the reading of the sample csv files and comparing them can be found in: `ESC-SoftwareMiniTest/src/compareCSV`, named as **`Compare.java`**.
-## Getting Started
+#### Getting Started
 Firstly, before running the program (in Eclipse), change the path of the sample files used to what corresponds to your own directory. 
 You can change them in line 163 for the `compareCols` method, line 165 for the `getHeaders` method and, lines 175 and 176 for the `getContentCsv` method.
-## Running the code
+![Screenshot 2022-08-13 at 3 44 28 AM](https://user-images.githubusercontent.com/98271835/184431873-2fa393fb-ab09-4eb3-9aaf-f91409652542.png)
+
+#### Running the code
 After making the necessary changes in the step above, you can proceed to run the code directly. At this point, you will be prompted to give an input based on the headers of the sample csv files. The headers will also be printed for you to help you with what to input.  Notice that you only give one input at a time which means that if you want to give two headers, you will have to type the first header, press 'Enter', type the second header and press 'Enter'. To stop giving inputs, you can simply just press 'Enter' another time.
-## Expected output
+![Screenshot 2022-08-13 at 3 45 19 AM](https://user-images.githubusercontent.com/98271835/184431984-5195c1de-0815-4d49-bee1-9015a130db7b.png)
+
+#### Expected output
 Depending on the type of input you gave, or the files used in the program, different outputs are expected.
 1. Giving an empty input: Both files will just compare for all headers and produce a new CSV file with differences listed if there are differences in both CSV files or produce a new CSV file that is empty if both CSV files used do not contain any differences.
 2. Giving an input that does not belong in the list of available headers: An error message saying that the user has entered an invalid input will be printed and the session will be terminated.
