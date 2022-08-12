@@ -37,6 +37,7 @@ should be complete. Each new bug found in another implementation will have a bou
 
 ### Week 8 Submission
 * Implementation of the reading of the sample csv files and comparing them can be found in: `ESC-SoftwareMiniTest/src/compareCSV`, named as **`Compare.java`**.
+* Use case diagram can be found in `Week8-Use Case Diagram`.
 #### Getting Started
 Firstly, before running the program (in Eclipse), change the path of the sample files used to what corresponds to your own directory. 
 You can change them in line 163 for the `compareCols` method, line 165 for the `getHeaders` method and, lines 175 and 176 for the `getContentCsv` method.
