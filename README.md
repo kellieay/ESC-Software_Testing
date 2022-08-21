@@ -24,7 +24,7 @@ bare minimum) the sample test files should pass. **Deadline 11th July, 11.59pm**
 partitioning should be complete. **Deadline 18th July, 11.59pm**.
 * [**Week 10**](#Week-10-Submission) [Code]: All (Junit) test files conducting unit and system level testing should be
 complete. **Deadline 25th July, 11.59pm**.
-* **Week 12** [Code]: A refactored/bug fixed version of the code. The fuzzer code is
+* [**Week 12**](#Week-12-Submission) [Code]: A refactored/bug fixed version of the code. The fuzzer code is
 complete and properly documented for running by a third-party. The implementations of
 others are also distributed this week for independent testing by group members.
 **Deadline 8th Aug, 11.59pm**.
