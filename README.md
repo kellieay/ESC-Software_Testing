@@ -66,17 +66,21 @@ Depending on the type of input you gave, or the files used in the program, diffe
 * All relevant fuzzing files can be found in `fuzzing`.
 Python was used to help generate random strings and strings with mutated bits.
 An example of what the random strings and strings with mutated bits look like are below.
+
 **random_string.txt**:
 
 **mutate.txt**:
 
-
 #### Running it
 1. Change the Scanner to accept the text file with random strings/mutated bits that was generated from running the python code, **random_gen.py**.
+
+<img width="1229" alt="Screenshot 2022-08-21 at 4 08 07 PM" src="https://user-images.githubusercontent.com/98271835/185782317-408ff840-f51f-49c4-8b68-f3364ce8a720.png">
 2. Click on the run button to run it directly.
 
 #### Expected output
 An error message should pop out for both types of text file.
 1. Random strings: **random_string.txt**
+<img width="1440" alt="Screenshot 2022-08-21 at 3 50 14 PM" src="https://user-images.githubusercontent.com/98271835/185782308-08e693d3-98da-4827-9678-0cbc81534b0d.png">
 
 2. Strings with mutated bits: **mutate.txt**
+<img width="1440" alt="Screenshot 2022-08-21 at 3 49 43 PM" src="https://user-images.githubusercontent.com/98271835/185782293-f94a33b7-efbf-470d-a68b-b8c039bf05d5.png">
