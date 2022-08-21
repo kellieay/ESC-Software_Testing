@@ -64,6 +64,8 @@ public class CompareCSV {
 		List<String> userList = new ArrayList<String>();
 		String message = "Enter a header. (Press 'Enter' twice to stop entering headers): ";
 		Scanner sc = new Scanner(System.in);
+		// Scanner sc = new Scanner("/Users/kellieayy/ESC-MiniTesting/ESC-SoftwareMiniTest/fuzzing/random_string.txt");
+		// Scanner sc = new Scanner("/Users/kellieayy/ESC-MiniTesting/ESC-SoftwareMiniTest/fuzzing/mutate.txt");
 		System.out.println(message);
 		String str = sc.nextLine();
 		if (str != "") {
@@ -85,9 +87,16 @@ public class CompareCSV {
 	
 	public static List<Integer> getIndex(List<String> userInp, List<String> headerLs) {
 		List<Integer>  indexLs = new ArrayList<Integer>();
-		for (int i = 0; i < userInp.size(); i++) {
-			Integer idx = headerLs.indexOf(userInp.get(i));
-			indexLs.add(idx);
+		if (headerLs.size() > userInp.size()) {
+			for (int i = 0; i < userInp.size(); i++) {
+				Integer idx = headerLs.indexOf(userInp.get(i));
+				indexLs.add(idx);
+			}
+		} else {
+			for (int i = 0; i < headerLs.size(); i++) {
+				Integer idx = headerLs.indexOf(userInp.get(i));
+				indexLs.add(idx);
+			}
 		}
 		return indexLs;
 	}
@@ -171,22 +180,24 @@ public class CompareCSV {
 					userInp = getUserInput();
 				} else {break;}
 			}
-			indexLs = getIndex(userLs, headerLs);
-			file1Content = getContentCsv("/Users/kellieayy/ESC-Software_Testing/ESC-SoftwareMiniTest/src/compareCSV/sample_file_1.csv");
-			file2Content = getContentCsv( "/Users/kellieayy/ESC-Software_Testing/ESC-SoftwareMiniTest/src/compareCSV/sample_file_3.csv");
-			differenceLs = compareCsv(file1Content, file2Content, indexLs);
-//			System.out.println(differenceLs);
-			try {
-				FileWriter fw = new FileWriter("test1_3.csv");
-				BufferedWriter bw = new BufferedWriter(fw);
-				for (int i = 0; i < differenceLs.size(); i++) {
-					bw.write(differenceLs.get(i));
-					bw.newLine();
+			if (userLs != null) {
+				indexLs = getIndex(userLs, headerLs);
+				file1Content = getContentCsv("/Users/kellieayy/ESC-Software_Testing/ESC-SoftwareMiniTest/src/compareCSV/sample_file_1.csv");
+				file2Content = getContentCsv( "/Users/kellieayy/ESC-Software_Testing/ESC-SoftwareMiniTest/src/compareCSV/sample_file_3.csv");
+				differenceLs = compareCsv(file1Content, file2Content, indexLs);
+	//			System.out.println(differenceLs);
+				try {
+					FileWriter fw = new FileWriter("test1_3.csv");
+					BufferedWriter bw = new BufferedWriter(fw);
+					for (int i = 0; i < differenceLs.size(); i++) {
+						bw.write(differenceLs.get(i));
+						bw.newLine();
+					}
+					bw.close();
+					fw.close();
+				} catch(IOException e) {
+					e.printStackTrace();
 				}
-				bw.close();
-				fw.close();
-			} catch(IOException e) {
-				e.printStackTrace();
 			}
 		} else {System.out.println("ERROR. Please ensure that both files have the same number of columns and are in the same order.");}
 
