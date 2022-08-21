@@ -24,7 +24,11 @@ bare minimum) the sample test files should pass. **Deadline 11th July, 11.59pm**
 partitioning should be complete. **Deadline 18th July, 11.59pm**.
 * [**Week 10**](#Week-10-Submission) [Code]: All (Junit) test files conducting unit and system level testing should be
 complete. **Deadline 25th July, 11.59pm**.
+<<<<<<< HEAD
 * [**Week 12**](#Week-12-submission) [Code]: A refactored/bug fixed version of the code. The fuzzer code is
+=======
+* [**Week 12**](#Week-12-Submission) [Code]: A refactored/bug fixed version of the code. The fuzzer code is
+>>>>>>> e16d1d96bc1df4e1f496dee7183758c2b95f1ce7
 complete and properly documented for running by a third-party. The implementations of
 others are also distributed this week for independent testing by group members.
 **Deadline 8th Aug, 11.59pm**.
@@ -65,21 +69,29 @@ Depending on the type of input you gave, or the files used in the program, diffe
 #### Fuzzing: Getting started
 * All relevant fuzzing files can be found in `fuzzing`.
 Python was used to help generate random strings and strings with mutated bits.
+
 An example of what the random strings and strings with mutated bits look like are below.
+
 **random_string.txt**:
+<img width="1290" alt="Screenshot 2022-08-21 at 4 20 32 PM" src="https://user-images.githubusercontent.com/98271835/185782391-c9c70a88-7214-45b3-9905-a9c8d38e174b.png">
 
 **mutate.txt**:
-
+<img width="1293" alt="Screenshot 2022-08-21 at 4 20 01 PM" src="https://user-images.githubusercontent.com/98271835/185782403-a09a80b3-937c-4661-94b4-612943169b51.png">
 
 #### Running it
 1. Change the Scanner to accept the text file with random strings/mutated bits that was generated from running the python code, **random_gen.py**.
+
+<img width="1229" alt="Screenshot 2022-08-21 at 4 08 07 PM" src="https://user-images.githubusercontent.com/98271835/185782317-408ff840-f51f-49c4-8b68-f3364ce8a720.png">
 2. Click on the run button to run it directly.
 
 #### Expected output
 An error message should pop out for both types of text file.
 1. Random strings: **random_string.txt**
+<img width="1440" alt="Screenshot 2022-08-21 at 3 50 14 PM" src="https://user-images.githubusercontent.com/98271835/185782308-08e693d3-98da-4827-9678-0cbc81534b0d.png">
 
 2. Strings with mutated bits: **mutate.txt**
+<img width="1440" alt="Screenshot 2022-08-21 at 3 49 43 PM" src="https://user-images.githubusercontent.com/98271835/185782293-f94a33b7-efbf-470d-a68b-b8c039bf05d5.png">
 
 ### Week 13 Submission
 * The report, fuzzing code and other relevant files can be found in `Week13-Submission`.
+
