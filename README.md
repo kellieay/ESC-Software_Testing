@@ -24,11 +24,11 @@ bare minimum) the sample test files should pass. **Deadline 11th July, 11.59pm**
 partitioning should be complete. **Deadline 18th July, 11.59pm**.
 * [**Week 10**](#Week-10-Submission) [Code]: All (Junit) test files conducting unit and system level testing should be
 complete. **Deadline 25th July, 11.59pm**.
-* **Week 12** [Code]: A refactored/bug fixed version of the code. The fuzzer code is
+* [**Week 12**](#Week-12-submission) [Code]: A refactored/bug fixed version of the code. The fuzzer code is
 complete and properly documented for running by a third-party. The implementations of
 others are also distributed this week for independent testing by group members.
 **Deadline 8th Aug, 11.59pm**.
-* **Week 13** [Document and Code]: All new tests written for the third party implementation
+* [**Week 13**](#Week-13-Submission) [Document and Code]: All new tests written for the third party implementation
 should be complete. A report to briefly explain the bugs found in other’s implementation
 should be complete. Each new bug found in another implementation will have a bounty
 (in terms of bonus marks: 5 marks / unique bug). **Deadline 15th Aug, 11.59pm**.
@@ -80,3 +80,6 @@ An error message should pop out for both types of text file.
 1. Random strings: **random_string.txt**
 
 2. Strings with mutated bits: **mutate.txt**
+
+### Week 13 Submission
+* The report, fuzzing code and other relevant files can be found in `Week13-Submission`.
