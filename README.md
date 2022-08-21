@@ -68,8 +68,10 @@ Python was used to help generate random strings and strings with mutated bits.
 An example of what the random strings and strings with mutated bits look like are below.
 
 **random_string.txt**:
+<img width="1290" alt="Screenshot 2022-08-21 at 4 20 32 PM" src="https://user-images.githubusercontent.com/98271835/185782391-c9c70a88-7214-45b3-9905-a9c8d38e174b.png">
 
 **mutate.txt**:
+<img width="1293" alt="Screenshot 2022-08-21 at 4 20 01 PM" src="https://user-images.githubusercontent.com/98271835/185782403-a09a80b3-937c-4661-94b4-612943169b51.png">
 
 #### Running it
 1. Change the Scanner to accept the text file with random strings/mutated bits that was generated from running the python code, **random_gen.py**.
