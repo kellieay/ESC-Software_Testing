@@ -57,3 +57,26 @@ Depending on the type of input you gave, or the files used in the program, diffe
 
 ### Week 9 Submission
 * Report on the boundary value analysis and equivalence class can be found in `Week9-Report`.
+
+### Week 10 Submission
+* Unit tests and system test can be found in `ESC-SoftwareMiniTest/src/compareCSV`, named as **`CompareCSVTest.java`**.
+
+### Week 12 Submission
+#### Fuzzing: Getting started
+* All relevant fuzzing files can be found in `fuzzing`.
+Python was used to help generate random strings and strings with mutated bits.
+An example of what the random strings and strings with mutated bits look like are below.
+**random_string.txt**:
+
+**mutate.txt**:
+
+
+#### Running it
+1. Change the Scanner to accept the text file with random strings/mutated bits that was generated from running the python code, **random_gen.py**.
+2. Click on the run button to run it directly.
+
+#### Expected output
+An error message should pop out for both types of text file.
+1. Random strings: **random_string.txt**
+
+2. Strings with mutated bits: **mutate.txt**
