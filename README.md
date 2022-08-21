@@ -65,6 +65,7 @@ Depending on the type of input you gave, or the files used in the program, diffe
 #### Fuzzing: Getting started
 * All relevant fuzzing files can be found in `fuzzing`.
 Python was used to help generate random strings and strings with mutated bits.
+
 An example of what the random strings and strings with mutated bits look like are below.
 
 **random_string.txt**:
